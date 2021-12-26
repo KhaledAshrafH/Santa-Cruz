@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*Back ground Color*/
+body{
+    background-color: rgb(248, 236, 212);
+}
+/*NavBar*/
+nav{
+    display: flex;
+    background-color: #888;
+    width:100%;
+    height: 70px;
+    position: relative;
+    
+}
+/*Logo Nav*/
+nav img{
+    width:70px;
+    height: 70px;
+    margin-left: 30px;
+}
+/*List , li,img -> padding from top and left*/
+nav li{
+    list-style: none;
+    display: flex;
+    padding-left: 24px;
+    margin-top: 21px;
+}
+/* To Position Login and Register in right*/
+nav li .Cont{
+    padding-right:635px ;
+}
+/*Link Of Style*/
+nav li a{
+    text-decoration: none;
+    color: rgba(255,255,255,0.767);
+    text-shadow: 2px 2px 6px rgb(231,65,93);
+    font-size: 23px;
+}
+/*Login and Register in the same style*/
+nav li .LogReg{
+    color: rgb(227, 102, 252);
+    text-shadow:1px 1px 2px white;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-style: italic;
+}
+/*Cover of this page*/
+header{
+    background-image:url(../Images/header.jpg);
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    
+}
+/*Header text of the cover*/
+header h1{
+    padding-left: 25px;
+    padding-top: 70px;
+    font-size: 50px;
+    color: #888;
+    text-shadow: 4px 2px 2px black;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: yellow;
+    text-shadow:2px 2px 6px yellow;
+}
+/*Buttons of this cover page*/
+header button{
+    margin-top: 85px;
+    margin-left: 25px;
+    padding:12px 30px;
+    background-color: rgb(238,125,223);
+    color: yellow;
+    text-shadow: 2px 2px 4px black;
+    border: 1px solid whitesmoke ;
+    border-radius: 10px 0px 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+header button:hover{
+    background-color: yellow;
+    color: rgb(123,25,118);
+}
+header button:focus{
+    outline: none;
+}
+/*Statement Of Prodacts before the table*/
+h2{
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-size: 45px;
+    word-spacing: 16px;
+    letter-spacing: 3px;
+    color: #888;
+    text-shadow: 4px 2px 2px black;
+
+}
+/*Table of the products*/
+table{
+    border-collapse: collapse;
+    width: 950px;
+    height: 200px;
+    text-align: center;
+    color: rgb(116, 114, 114);
+    border: 2px solid black;
+    margin:auto;
+    
+
+}
+/*Make Border*/
+table tr,td,th{
+    border: 2px solid black;
+    padding: 15px;
+    
+}
+table th{
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px;
+}
+table td{
+    font-size: 20px;
+    font-weight: bold;
+}
+/*Color and Anothor Color in Rows*/
+tr:nth-child(even){
+    background-color: #888;
+    color: black;
+}
+/*End The Page by footer*/
+footer{
+    margin-top: 50px;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+footer h3{
+    color: white;
+   text-align: center;
+   padding-top: 38px;
+}
