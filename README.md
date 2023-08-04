@@ -11,7 +11,7 @@ SantaCruz is a simple front end design project that showcases a clothing brand w
 
 ## Installation
 
-To run this project, you need to have a web browser and a code editor. You can download the project files from [this link] or clone the repository from [this link]. Then, open the index.html file in your web browser to view the website.
+To run this project, you need to have a web browser and a code editor. You can download the project files from [This Link](https://github.com/KhaledAshrafH/santaCruz/archive/refs/heads/main.zip) or clone the repository. Then, open the index.html file in your web browser to view the website.
 
 ## Usage
 
