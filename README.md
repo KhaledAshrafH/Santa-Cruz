@@ -1,6 +1,6 @@
 # SantaCruz (Clothes)
 
-SantaCruz is a simple front end design project that showcases a clothing brand website. It uses html and css to create a responsive and attractive layout with images, text, and links.
+SantaCruz is a simple front end design project that showcases a clothing brand website. It uses html and css to create attractive layout with images, text, and links.
 
 ## Features
 
